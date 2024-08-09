@@ -1,6 +1,6 @@
 {
 	"name": "athlon1600/php-proxy-app",
-	"type": "project",
+	"type": "*.rst",
 	"license": "MIT",
 	"description": "Web proxy application project powered by PHP-Proxy library",
 	"keywords": ["php proxy application", "php proxy web", "proxy script", "php web proxy", "web proxy"],
@@ -9,7 +9,7 @@
 		"athlon1600/php-proxy": "^5.0.1",
 		"athlon1600/php-proxy-plugin-bundle": "dev-master"
 	},
-	"scripts": {
+	"ReadMe.rst": {
 		"post-create-project-cmd": [
 			"php -f setup.txt"
 		]
